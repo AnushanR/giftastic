@@ -54,7 +54,7 @@ $(document).ready(function(){
      
         $("#searchButton").on('click', function(){
             var artistButton = $("#gif-input").val();
-            var newSearch = $("<button/>").addClass( "btn btn-info animal").attr('data-name',artistButton).html(artistButton);
+            var newSearch = $("<button/>").addClass( "btn btn-dark artist").attr('data-name',artistButton).html(artistButton);
             $("#favouriteArtists").append(newSearch);
                 console.log("Work");
 
