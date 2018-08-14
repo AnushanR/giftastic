@@ -13,35 +13,39 @@
 
 <body>
     <div class = "container" id = "favouriteArtists">
-            <button type="button" class="btn btn-info">Drake</button>
-            <button type="button" class="btn btn-info">Tory Lanez</button>
-            <button type="button" class="btn btn-info">Wiz Kid</button>
-            <button type="button" class="btn btn-info">A$AP Rocky</button>
-            <button type="button" class="btn btn-info">Migos</button>
-            <button type="button" class="btn btn-info">Pressa</button>
-            <button type="button" class="btn btn-info">Travis Scott</button>
-            <button type="button" class="btn btn-info">The Weekend</button>
-            <button type="button" class="btn btn-info">Kanye West</button>
+            <button type="button" data-name="Drake" class="btn btn-info">Drake</button>
+            <button type="button" data-name="Tory Lanez" class="btn btn-info">Tory Lanez</button>
+            <button type="button" data-name="Skepta" class="btn btn-info">Skepta</button>
+            <button type="button" data-name="ASAP Rocky" class="btn btn-info">A$AP Rocky</button>
+            <button type="button" data-name="Migos" class="btn btn-info">Migos</button>
+            <button type="button" data-name="21 Savage" class="btn btn-info">21 Savage</button>
+            <button type="button" data-name="Travis Scott" class="btn btn-info">Travis Scott</button>
+            <button type="button" data-name="50 Cent" class="btn btn-info">50 Cent</button>
+            <button type="button" data-name="Kanye West" class="btn btn-info">Kanye West</button>
     </div>
 
-    <div id = "gifs">
+    <div id="gifs">
 
     </div>
 
-    <div style="float:right">
-            <h4>Add your artist!</h4>
+    <div id ="searchbar">
+            <h2>Add your artist!</h2>
                <form id="gif-form">
                    <label for="gif-input"></label>
                    <input type="text" value="" id="gif-input"><br><br>
-                   <input type="submit" name="Button" class="btn btn-success" id="theButton" style="margin-left:8px">
+                   
+                   <input type="submit" name="button" class="btn btn-success" id="searchButton">
                </form>
            </div>
 
 
 
+           <script
+           src="https://code.jquery.com/jquery-3.3.1.js"
+           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+           crossorigin="anonymous"></script>
 
-
-        <script type="text/javascript" src="js/main.js>
+        <script type="text/javascript" src="js/main.js">
     </script>
 </body>
 
